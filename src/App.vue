@@ -6,6 +6,7 @@
 
 <style lang="scss">
 @import url("http://fonts.cdnfonts.com/css/monument-extended");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 
 * {
   font-family: "Monument Extended", sans-serif;
@@ -20,10 +21,30 @@
   --black: #130217;
 }
 
+body {
+  margin: 0;
+}
+
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: var(--black);
+}
+
+p,
+a,
+span,
+small,
+button {
+  font-family: "DM Sans", sans-serif;
+}
+
+button {
+  padding: 0.8rem 2rem;
+  font-size: 0.9rem;
+  outline: none;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid;
 }
 </style>
