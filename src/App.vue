@@ -5,7 +5,7 @@
 </template>
 
 <style lang="scss">
-@import url("http://fonts.cdnfonts.com/css/monument-extended");
+@import url("https://fonts.cdnfonts.com/css/monument-extended");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 
 * {
