@@ -46,5 +46,11 @@ button {
   background-color: transparent;
   border-radius: 10px;
   border: 1px solid;
+  transition: all 0.2s;
+
+  &:hover {
+    opacity: 0.8;
+    transform: scale(0.9);
+  }
 }
 </style>
