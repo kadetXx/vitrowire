@@ -70,11 +70,6 @@ export default {
     // get right of
 
     const activeMenuRight = activeMenu.offsetLeft + activeMenu.offsetWidth;
-
-    console.log(activeMenu.offsetLeft);
-    console.log(activeMenu.offsetWidth);
-    console.log(activeMenuRight);
-
     indicator.style.left = activeMenuRight - indicator.offsetWidth + "px";
   },
 };
