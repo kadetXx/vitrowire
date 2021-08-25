@@ -92,6 +92,7 @@
 <style lang="scss" scoped>
 footer {
   padding: 2rem 5%;
+  margin-top: 12%;
 }
 
 a {
